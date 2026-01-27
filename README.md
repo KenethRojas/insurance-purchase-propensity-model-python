@@ -13,10 +13,11 @@ This projects analyze historical customer data to create a predictive model abou
 - Support the prioritization of sales efforts, focusing on customers with the highest likelihood of purchasing insurance.
 
 ## 📊 Dataset
-- Source: Insurance Company Dataset - Confidential data; identifiers and some features anonymized and scaled for this repo.
+- Source: Insurance Company Dataset - Confidential data; identifiers and features anonymized and scaled for this repo.
 - Records: 30K+
 - Features: `Variable1` to `Variable10`: Customer demographic, transaction history, and interaction data (anonymized and scaled).
-- Target: `Flag_Vehicular`, variable that indicates whether the customer purchased vehicle insurance. Where 1 indicates yes and 0 indicates no.
+- Target: `Flag_Vehicular`, indicating whether the customer purchased vehicle insurance (1 = purchased, 0 = not purchased).
+> Note: This dataset is anonymized and shared for the purpose of showcasing data science techniques. It does not contain any personally identifiable information and is based on behavioral data.
 
 ## 🛠️ Methodology
 - Data cleaning and preprocessing: Validation of nulls and duplicates.
