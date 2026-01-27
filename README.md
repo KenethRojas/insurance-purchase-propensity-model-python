@@ -1,10 +1,10 @@
-# Insurance Purchase Propensity Model (Python)
+# Insurance Purchase Propensity Model: A Predictive Analysis Using Python
 
 ## 📌 Business Context
 An insurance company wants to identify which customer base they can offer one of its most important products, vehicle insurance.
 Marketing campaigns can be inefficient if they target customers with low purchase intent.
 
-This projects analyze historical customer data to create a predictive model about probality of customers' purchase using Machine Learning with Python.
+This projects analyze historical customer data to create a predictive model about probability of customers' purchase using Machine Learning with Python.
 
 ## 🎯 Objective
 - Identify patterns that allows differentiate between buying and non-buying customers.
