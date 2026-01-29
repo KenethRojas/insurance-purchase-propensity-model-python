@@ -16,8 +16,8 @@ This projects analyze historical customer data to create a predictive model abou
 - Source: Insurance Company Dataset - Confidential data; identifiers and features anonymized for this repo.
 - Records: 30K+
 - Features: `Variable1` to `Variable10`: Customer demographic, transaction history, and interaction data (anonymized).
-- Target: `Flag_Vehicular`, indicating whether the customer purchased vehicle insurance (1 = purchased, 0 = not purchased).
-> Note: This dataset is anonymized and shared for the purpose of showcasing data science techniques. It does not contain any personally identifiable information and is based on behavioral data.
+- Target: `Vehicular_Flag`, indicating whether the customer purchased vehicle insurance (1 = purchased, 0 = not purchased).
+> Note: This dataset is anonymized and shared for the purpose of showcasing data science techniques. It does not contain any personally identifiable information and is based on behavioral data. The actual dataset is proprietary and cannot be publicly shared.
 
 ## 🛠️ Methodology
 - Data cleaning and preprocessing: Validation of nulls and duplicates.
