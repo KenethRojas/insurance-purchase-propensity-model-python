@@ -28,11 +28,11 @@ print(df['cliente'].nunique()) # To validate duplicates
 
 ## Target review
 print('\nTarget Distribution')
-print(df['Flag_Vehicular'].value_counts(normalize=True).mul(100).round(2)) # Imbalance identified
+print(df['Vehicular_Flag'].value_counts(normalize=True).mul(100).round(2)) # Imbalance identified
 
 ## Variable preparation
-x = df.drop(columns=['customer', 'Flag_Vehicular'])
-y = df['Flag_Vehicular']
+x = df.drop(columns=['customer', 'Vehicular_Flag'])
+y = df['Vehicular_Flag']
 
 x_train, x_test, y_train, y_test = train_test_split(
     x, y,
@@ -110,4 +110,5 @@ print(df_score.groupby('decile')['real'].mean().mul(100).round(2))
 
 ## Customers with higher scores have a higher purchase rate
 ## Prioritize campaigns and efforts for customers in the 10th decile, as they have a purchase rate of 19%, more than 3 times the initial average (6%)
+
 ## Secondly, also work with clients in the 9th decile
