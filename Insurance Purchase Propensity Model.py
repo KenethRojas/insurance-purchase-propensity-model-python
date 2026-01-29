@@ -110,5 +110,4 @@ print(df_score.groupby('decile')['real'].mean().mul(100).round(2))
 
 ## Customers with higher scores have a higher purchase rate
 ## Prioritize campaigns and efforts for customers in the 10th decile, as they have a purchase rate of 19%, more than 3 times the initial average (6%)
-
 ## Secondly, also work with clients in the 9th decile
