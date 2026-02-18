@@ -17,7 +17,7 @@ This projects analyze historical customer data to create a predictive model abou
 - Records: 30K+
 - Features: `Variable1` to `Variable10`: Customer demographic, transaction history, and interaction data (anonymized).
 - Target: `Vehicular_Flag`, indicating whether the customer purchased vehicle insurance (1 = purchased, 0 = not purchased).
-> Note: This dataset was provided internally by the insurance company as part of this case study. For confidentiality reasons, the data is delivered **anonymized**: it contains no personally identifiable information (e.g., names, ID numbers, phone numbers, addresses), and the variables have been **masked** using generic names (`Variable1` to `Variable10`). Likewise, the `client` identifier serves only as a **technical ID** for traceability and validation and does not allow the real identification of any individual. This anonymization supports privacy best practices and enables modeling without exposing sensitive business information.
+> Note: This dataset was provided internally by the insurance company as part of this case study. For confidentiality reasons, the data is delivered **anonymized**: it contains no personally identifiable information (e.g., names, ID numbers, phone numbers, addresses), and the variables have been **masked** using generic names (`Variable1` to `Variable10`). Likewise, the `customer` identifier serves only as a **technical ID** for traceability and validation and does not allow the real identification of any individual. This anonymization supports privacy best practices and enables modeling without exposing sensitive business information.
 
 
 ## 🛠️ Methodology
